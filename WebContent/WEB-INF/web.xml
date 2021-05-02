@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>blood.donation.Index</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/Homepage</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>Donation</servlet-name>
+		<servlet-class>blood.donation.Donation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Donation</servlet-name>
+		<url-pattern>/donation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Requestblood</servlet-name>
+		<servlet-class>blood.donation.Requestblood</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Requestblood</servlet-name>
+		<url-pattern>/requestblood</url-pattern>
+	</servlet-mapping>
+	
+
+</web-app>
